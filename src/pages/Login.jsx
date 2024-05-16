@@ -122,7 +122,7 @@ const Login = () => {
          
 
           <Sign>
-            Don&apos;t have an account? <SignUpLink href="/signup">SignUp now</SignUpLink>
+            Don&apos;t have an account? <SignUpLink href="/">SignUp now</SignUpLink>
           </Sign>
 
       </Wrapper>

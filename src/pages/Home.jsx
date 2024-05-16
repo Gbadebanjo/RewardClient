@@ -431,7 +431,7 @@ const Home = () => {
           KATAB
         </Logo>
         <Nav>
-          <NavText to="/" >
+          <NavText to="/dashboard" >
             {" "}
             <FaHome style={{ marginRight: "10px" }} />
             Home
@@ -507,7 +507,7 @@ const Home = () => {
             KATAB
           </Logo>
           <Nav>
-            <NavText to="/">
+            <NavText to="/dashboard">
               {" "}
               <FaHome style={{ marginRight: "10px" }} />
               Home
