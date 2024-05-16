@@ -7,11 +7,7 @@ import Home from "./pages/Home";
 import axios from "axios";
 import Transaction from "./pages/Transaction";
 
-if (import.meta.env.VITE_ENV === "production") {
-  axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
-} else {
-  axios.defaults.baseURL = import.meta.env.VITE_LOCALBASE_URL;
-}
+axios.defaults.baseURL = import.meta.env.VITE_BASE_URL;
 
 function App() {
   return (
